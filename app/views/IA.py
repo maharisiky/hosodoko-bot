@@ -12,7 +12,7 @@ class IA :
 
     def get_prompt(self):
         prompt = ""
-        with open('app/views/prompt.txt', 'r') as file:
+        with open('static/prompt.txt', 'r') as file:
             prompt = file.read()
         return prompt
 
