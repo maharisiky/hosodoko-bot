@@ -11,21 +11,29 @@ class Command(BaseCommand):
             action='store_true',
             help='Exécuter seulement le seeder des quick replies',
         )
+        parser.add_argument(
+            '--admin-only',
+            action='store_true',
+            help='Créer seulement le superuser admin',
+        )
 
     def handle(self, *args, **options):
         if options['quick_replies_only']:
             self.stdout.write('Exécution du seeder des quick replies...')
             call_command('seed_quickreplies')
+        elif options['admin_only']:
+            self.stdout.write('Création du superuser admin...')
+            call_command('seed_admin')
         else:
             self.stdout.write('Exécution de tous les seeders...')
             
             # Appeler tous les seeders ici
-            self.stdout.write('1. Seeding quick replies...')
+            self.stdout.write('1. Création du superuser admin...')
+            call_command('seed_admin')
+            
+            self.stdout.write('2. Seeding quick replies...')
             call_command('seed_quickreplies')
             
-            # Vous pouvez ajouter d'autres seeders ici
-            # self.stdout.write('2. Seeding other data...')
-            # call_command('seed_other_data')
             
         self.stdout.write(
             self.style.SUCCESS('Tous les seeders ont été exécutés avec succès!')
