@@ -28,11 +28,11 @@ class Command(BaseCommand):
                 'payload': 'CHALLENGES',
                 'response_text': 'Nous relevons des défis tels que la sensibilisation à la culture japonaise dans notre communauté, l\'organisation d\'événements en ligne et en personne, et la création de partenariats avec d\'autres associations et institutions culturelles.'
             },
-            {
-                'title': 'Quizz',
-                'payload': 'QUIZ',
-                'response_text': 'Quel est le plat japonais traditionnel souvent servi lors des célébrations ?\n1. Sushi\n2. Ramen\n3. Mochi\n4. Tempura\nRépondez avec le numéro de votre choix !'
-            }
+            # {
+            #     'title': 'Quizz',
+            #     'payload': 'QUIZ',
+            #     'response_text': 'Quel est le plat japonais traditionnel souvent servi lors des célébrations ?\n1. Sushi\n2. Ramen\n3. Mochi\n4. Tempura\nRépondez avec le numéro de votre choix !'
+            # }
         ]
 
         # Créer ou mettre à jour les quick replies
