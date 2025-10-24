@@ -7,26 +7,26 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # Données des quick replies
-        quick_replies_data = [
+        quick_replies_data = [ 
             {
                 'title': 'À propos',
                 'payload': 'ABOUT',
-                'response_text': 'Hosodoko-ko est une association à but non lucratif qui vise à promouvoir la culture japonaise et à créer des liens entre les passionnés de cette culture. Nous organisons divers événements, ateliers et activités pour partager notre amour du Japon avec la communauté.'
+                'response_text': 'HOSODOKO-KO est une maison de production d\'œuvre d\'art à partir de recyclage des déchets.\n\n🎯 VISION: Être une référence de la gestion des déchets et dans l\'éducation et sensibilisation environnementales avec une approche participative et inclusive.\n\n🎨 MISSIONS:\n• Valoriser les déchets en œuvre d\'arts originaux et inspirants\n• Promouvoir l\'écoresponsabilité grâce à des approches ludiques\n• Fédérer un réseau d\'acteurs locaux\n• Diffuser les connaissances en gestion des déchets\n\n💎 VALEURS: Création et innovation, Durabilité, Intégrité et transparence, Éducation et partage\n\n📧 Contact: hosodokoko@gmail.com | ☎️ +261 34 20 801 09'
             },
             {
                 'title': 'Savoir-faire',
                 'payload': 'SKILLS',
-                'response_text': 'Nos savoir-faire incluent l\'organisation d\'événements culturels, la gestion de projets associatifs, la communication et le marketing, ainsi que la création de contenus'
+                'response_text': '🎨 NOS EXPERTISES:\n• Valorisation, recyclage et réutilisation des déchets à des fins d\'œuvres d\'arts\n• Éducation environnementale et sensibilisation\n• Renforcement de capacité des communautés\n• Reboisement communautaire\n• Restauration écologique participative\n• Inventaire et suivis écologiques\n• Valorisation des ressources naturelles\n\nNous mettons l\'art au service de l\'environnement avec une approche participative et inclusive.'
             },
             {
                 'title': 'Événements',
                 'payload': 'EVENTS',
-                'response_text': 'Nous organisons régulièrement des événements tels que des ateliers de cuisine japonaise, des projections de films, des cours de langue japonaise, et des festivals culturels. Consultez notre site web ou nos réseaux sociaux pour les prochaines dates !'
+                'response_text': '🌱 NOS ÉVÉNEMENTS:\n• Ateliers de création d\'œuvres d\'art à partir de déchets recyclés\n• Sessions d\'éducation environnementale\n• Campagnes de sensibilisation à la protection de l\'environnement\n• Projets de reboisement communautaire\n• Formations en gestion des déchets\n• Expositions d\'art écologique\n\nContactez-nous pour participer à nos prochaines activités ! 📧 hosodokoko@gmail.com'
             },
             {
                 'title': 'Challenges',
                 'payload': 'CHALLENGES',
-                'response_text': 'Nous relevons des défis tels que la sensibilisation à la culture japonaise dans notre communauté, l\'organisation d\'événements en ligne et en personne, et la création de partenariats avec d\'autres associations et institutions culturelles.'
+                'response_text': '🎯 NOS DÉFIS:\n• Transformer la perception des déchets en ressources créatives\n• Sensibiliser les communautés à l\'écoresponsabilité\n• Créer un réseau d\'acteurs locaux engagés\n• Développer des approches ludiques pour l\'éducation environnementale\n• Promouvoir une culture de responsabilité environnementale\n• Restaurer les écosystèmes dégradés\n\nEnsemble, construisons un avenir plus durable ! 🌍'
             },
             # {
             #     'title': 'Quizz',
