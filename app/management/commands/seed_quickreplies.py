@@ -16,7 +16,7 @@ class Command(BaseCommand):
             {
                 'title': 'Savoir-faire',
                 'payload': 'SKILLS',
-                'response_text': '🎨 NOS EXPERTISES:\n• Valorisation, recyclage et réutilisation des déchets à des fins d\'œuvres d\'arts\n• Éducation environnementale et sensibilisation\n• Renforcement de capacité des communautés\n• Reboisement communautaire\n• Restauration écologique participative\n• Inventaire et suivis écologiques\n• Valorisation des ressources naturelles\n\nNous mettons l\'art au service de l\'environnement avec une approche participative et inclusive.'
+                'response_text': '🛠️ TUTO : FABRIQUE UN POT DE FLEURS AVEC UNE BOUTEILLE PLASTIQUE\n\n📋 MATÉRIAUX NÉCESSAIRES :\n• 1 bouteille plastique (1,5L ou 2L)\n• Cutter ou ciseaux\n• Peinture ou marqueurs\n• Terre et graines/plante\n\n👷 ÉTAPES :\n1️⃣ Coupe la bouteille au 2/3 de sa hauteur\n2️⃣ Fais 3-4 petits trous au fond pour drainage\n3️⃣ Décore avec peinture ou dessins\n4️⃣ Remplis de terre et plante tes graines\n5️⃣ Arrose légèrement\n\n💡 ASTUCE : Utilise le haut comme entonnoir d\'arrosage !\n\n✨ En 30 min, tu transformes un déchet en objet utile ! 🌱'
             },
             {
                 'title': 'Événements',
@@ -26,7 +26,7 @@ class Command(BaseCommand):
             {
                 'title': 'Challenges',
                 'payload': 'CHALLENGES',
-                'response_text': '🎯 NOS DÉFIS:\n• Transformer la perception des déchets en ressources créatives\n• Sensibiliser les communautés à l\'écoresponsabilité\n• Créer un réseau d\'acteurs locaux engagés\n• Développer des approches ludiques pour l\'éducation environnementale\n• Promouvoir une culture de responsabilité environnementale\n• Restaurer les écosystèmes dégradés\n\nEnsemble, construisons un avenir plus durable ! 🌍'
+                'response_text': 'DÉFI ÉCOLOGIQUE DE LA SEMAINE :\n\n🎨 "TRANSFORME TES DÉCHETS EN ART !"\n\nTon mission :\n1️⃣ Collecte 5 bouteilles plastiques, boîtes de conserve ou cartons\n2️⃣ Crée une œuvre d\'art originale (sculpture, pot de fleurs, organisateur, etc.)\n3️⃣ Prends une photo de ta création\n4️⃣ Partage ton histoire : qu\'as-tu appris ?\n\n🏆 RÉCOMPENSE : Les meilleures créations seront exposées lors de nos événements !\n\n✅ Défi terminé ? Contacte-nous :\n📧 hosodokoko@gmail.com\n☎️ +261 34 20 801 09\n\nEnsemble, transformons les déchets en trésors ! 🌍♻️'
             },
             # {
             #     'title': 'Quizz',
